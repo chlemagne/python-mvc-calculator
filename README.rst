@@ -1,8 +1,7 @@
-Python 3 Calculator
-===================
+Python 3 MVC Calculator
+=======================
 
-* Simple project
-* Implemented in OOP
+* Implemented in MVC design pattern
 * Imitates Windows 10's Standard Calculator
 
 Requirements
