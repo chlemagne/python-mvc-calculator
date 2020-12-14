@@ -84,92 +84,92 @@ class Controller(ControllerInterface):
     def _press_one(self, event):
         """ Call back method for button ONE.
         """
-        symbol = self.number.Symbols.ONE
-        self.number.append(symbol)
-        number = self.number.join()
-
-        self._update_display(self.view.Labels.BOT_DISP, number)
+        self.number.append(self.number.Symbols.ONE)
+        self._update_display(
+            self.view.Labels.BOT_DISP,
+            self.number.join()
+        )
 
     def _press_two(self, event):
         """ Call back method for button TWO.
         """
-        symbol = self.number.Symbols.TWO
-        self.number.append(symbol)
-        number = self.number.join()
-
-        self._update_display(self.view.Labels.BOT_DISP, number)
+        self.number.append(self.number.Symbols.TWO)
+        self._update_display(
+            self.view.Labels.BOT_DISP,
+            self.number.join()
+        )
 
     def _press_three(self, event):
         """ Call back method for button THREE.
         """
-        symbol = self.number.Symbols.THREE
-        self.number.append(symbol)
-        number = self.number.join()
-
-        self._update_display(self.view.Labels.BOT_DISP, number)
+        self.number.append(self.number.Symbols.THREE)
+        self._update_display(
+            self.view.Labels.BOT_DISP,
+            self.number.join()
+        )
 
     def _press_four(self, event):
         """ Call back method for button FOUR.
         """
-        symbol = self.number.Symbols.FOUR
-        self.number.append(symbol)
-        number = self.number.join()
-
-        self._update_display(self.view.Labels.BOT_DISP, number)
+        self.number.append(self.number.Symbols.FOUR)
+        self._update_display(
+            self.view.Labels.BOT_DISP,
+            self.number.join()
+        )
 
     def _press_five(self, event):
         """ Call back method for button FIVE.
         """
-        symbol = self.number.Symbols.FIVE
-        self.number.append(symbol)
-        number = self.number.join()
-
-        self._update_display(self.view.Labels.BOT_DISP, number)
+        self.number.append(self.number.Symbols.FIVE)
+        self._update_display(
+            self.view.Labels.BOT_DISP,
+            self.number.join()
+        )
 
     def _press_six(self, event):
         """ Call back method for button SIX.
         """
-        symbol = self.number.Symbols.SIX
-        self.number.append(symbol)
-        number = self.number.join()
-
-        self._update_display(self.view.Labels.BOT_DISP, number)
+        self.number.append(self.number.Symbols.SIX)
+        self._update_display(
+            self.view.Labels.BOT_DISP,
+            self.number.join()
+        )
 
     def _press_seven(self, event):
         """ Call back method for button SEVEN.
         """
-        symbol = self.number.Symbols.SEVEN
-        self.number.append(symbol)
-        number = self.number.join()
-
-        self._update_display(self.view.Labels.BOT_DISP, number)
+        self.number.append(self.number.Symbols.SEVEN)
+        self._update_display(
+            self.view.Labels.BOT_DISP,
+            self.number.join()
+        )
 
     def _press_eight(self, event):
         """ Call back method for button EIGHT.
         """
-        symbol = self.number.Symbols.EIGHT
-        self.number.append(symbol)
-        number = self.number.join()
-
-        self._update_display(self.view.Labels.BOT_DISP, number)
+        self.number.append(self.number.Symbols.EIGHT)
+        self._update_display(
+            self.view.Labels.BOT_DISP,
+            self.number.join()
+        )
 
     def _press_nine(self, event):
         """ Call back method for button NINE.
         """
-        symbol = self.number.Symbols.NINE
-        self.number.append(symbol)
-        number = self.number.join()
-
-        self._update_display(self.view.Labels.BOT_DISP, number)
+        self.number.append(self.number.Symbols.NINE)
+        self._update_display(
+            self.view.Labels.BOT_DISP,
+            self.number.join()
+        )
 
     def _press_zero(self, event):
         """ Call back method for button ZERO.
         """
-        symbol = self.number.Symbols.ZERO
-        self.number.append(symbol)
-        number = self.number.join()
-
-        self._update_display(self.view.Labels.BOT_DISP, number)
+        self.number.append(self.number.Symbols.ZERO)
+        self._update_display(
+            self.view.Labels.BOT_DISP,
+            self.number.join()
+        )
 
     def _press_change_sign(self, event):
         """ Call back method for button CHANGE SIGN.
